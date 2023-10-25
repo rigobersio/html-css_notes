@@ -11,11 +11,11 @@ HTML o `Hypertest Markap Language` hace que el contenido de páginas web tenga u
 –---
 
 ### Estructura básica de un doc HTML
-estructura basica del sitio web que tiene el encabezado "Misitio web" y un parrafo que dice "Biembenidos a mi sitio web"
+estructura básica del sitio web que tiene el encabezado "Mi sitio web" y un párrafo que dice "Bienvenidos a mi sitio web"
 
 para hacer esto se necesitan etiquetas para **marcar** el contenido
 
-las etiquetas **html**, <head>, y <body> se utilizan para marcar el inicio y el final de la pagina web, por otra parte, las etiquetas <title>, <h1> y <p>, se utilizan para **marcar** el contenido de la página. El encabezado es <h1> yel parrafo es <p>.
+las etiquetas **html**, <head>, y <body> se utilizan para marcar el inicio y el final de la pagina web, por otra parte, las etiquetas <title>, <h1> y <p>, se utilizan para **marcar** el contenido de la página. El encabezado es <h1> yel párrafo es <p>.
 
 2 secciones importantes don *la cabecera* de la pagina q corresponde a <head> y el *cuerpo* q corresponde a <body>: las secciones pueden tener subsecciones.
 
@@ -32,6 +32,30 @@ otra estiqueimportantes <!DOCTYPE>: esta define el tipo de documento y le permit
 	<h1>Mi sitio web</h1>
 	<p>Biembenido a mi sitio web</p>
 </body>
+</html>
+```
+
+Etiqueta <!DOCTYPE>
+
+HTML, como todos los lenguajes, ha pasado por diferentes versiones con el pasar del tiempo y su implementación. Por esto mismo, es necesario indicar al navegador la versión de HTML en la que se encuentran escritos los documentos que estamos intentando renderizar (mostrar en la pantalla del navegador).
+
+Para ello, existe la etiqueta <!DOCTYPE> que, como su nombre lo indica, define el tipo de documento e indica al navegador cómo debe interpretar el código HTML. Para el objetivo de nuestro curso sólo usaremos la etiqueta que define el tipo de documento como HTML5. La definimos de la siguiente manera:
+
+ <!DOCTYPE>
+
+Estructura básica de un documento HTML5
+
+Para definir que el documento creado es un documento con la versión 5 de HTML se debe incluir la etiqueta <!DOCTYPE> antes de la etiqueta de apertura <html>
+
+```html
+<!DOCTYPE html>
+<html>
+	<head>
+
+	</head>
+
+	<body>
+	</body>
 </html>
 ```
 
