@@ -4,7 +4,7 @@ Todos los sitios web están escritos en HTML y CSS
 
 ## HTML
 
-HTML es un lenguaje de **marcado**, es dicir, le da la estructura la sitio web
+HTML es un lenguaje de **marcado**, es decir, le da la estructura la sitio web
 
 HTML o `Hypertest Markap Language` hace que el contenido de páginas web tenga una estructura lógica y semántica
 
@@ -19,7 +19,7 @@ las etiquetas **html**, <head>, y <body> se utilizan para marcar el inicio y el 
 
 2 secciones importantes don *la cabecera* de la pagina q corresponde a <head> y el *cuerpo* q corresponde a <body>: las secciones pueden tener subsecciones.
 
-otra estiqueimportantes <!DOCTYPE>: esta define el tipo de documento y le permite al navegador web interpretar correctamente el codigo **html**
+otra etiqueta importante <!DOCTYPE>: esta define el tipo de documento y le permite al navegador web interpretar correctamente el código **html**
 
 * Example
 ```html
@@ -43,7 +43,9 @@ Para ello, existe la etiqueta <!DOCTYPE> que, como su nombre lo indica, define e
 
  <!DOCTYPE>
 
-Estructura básica de un documento HTML5
+
+
+#### Estructura básica de un documento HTML5
 
 Para definir que el documento creado es un documento con la versión 5 de HTML se debe incluir la etiqueta <!DOCTYPE> antes de la etiqueta de apertura <html>
 
@@ -59,6 +61,19 @@ Para definir que el documento creado es un documento con la versión 5 de HTML s
 </html>
 ```
 
+
+
+#### Estructura de una etiqueta
+
+Una etiqueta es una marca o identificador que se utiliza para definir el inicio y el final de un elemento dentro de una página web. 
+
+Cada etiqueta se compone de corchetes angulares (< y >), seguidos del nombre de la etiqueta, y puede tener **atributos** y **valores** que proporcionan información adicional sobre el elemento. Las etiquetas se utilizan para definir la estructura y el contenido de una página web, y permiten al navegador interpretar y renderizar correctamente la información que se muestra al usuario. Ejemplos de etiquetas en HTML incluyen <html>, <head>, <body>, <p>, <img>, <a>, entre otras.
+
+Podemos referirnos a las etiquetas como elementos, sin embargo hay una pequeña diferencia entre estos conceptos:
+
+Elemento: Es el bloque de HTML que ya ha sido renderizado, generalmente está conformado por dos etiquetas separadas, una de apertura y otra de cierre.
+
+Etiqueta: La etiqueta está escrita de una forma que el navegador pueda encontrarla, rodeada de los símbolos menor que < y mayor que >.
 
 #### Etiquetas de maquetado
 
